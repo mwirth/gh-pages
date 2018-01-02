@@ -3,6 +3,11 @@ rvm:
 - 2.2.0
 sudo: false
 script: bundle exec rake deploy
+branches:
+  only:
+  - master
+  - gh-pages
+  - gh_pages
 env:
   global:
   - secure: 0TjCgu2UsqSmE/w6MqnR8v5qXczPMZQF/a6ijLIg7rnLr196jDhclt21NdRumfiamm7HXtWptUSlr4Q+dW7kcSn5sxy5E4+tY2u0PgMM5xsKjejGoImdX7RJRqYCi2rPCJIr61CV5JqdNCGhVqYZygg5ernR/PWjVmYOEu7ELbDKI65mV3XP8TaZmHj1aONfyA0ojc+t1KDKvdpHgir87t8lHy0apZXpKP5I7u+nElNMU7FvRN/uB8kETkL9fZSIPuMc7vGV7FS6iWgQMEqAOxNYHeH32BK4bO0qJNQ18MFkN+PUkn065zj6ygQ7HNzp0rt5NM2cTtHFNooAx6jxNxo3mNx8jwTl4S02UdSMDFzV+N01FADCuKmo8dYPbd22MqXusjyq5ww//xvV7HWGMs72emM3nuAdkXEO3C0eFiYtf96Udios6vA5raYiKu8d2FaQscewudg7T2K+zcVJwzOUG5/JZJFnmeX2ZlAwYrOXn2L6+6fgyCyVKqItqgbBhcmGpX8yl5lHVfvl1+zvfr/6VfzW0AXJtQWN32NcrvKa9q0PWb6qYMF+1Q0LeRO21zqs3PBEIm9vHU/wijc8oy9mQ4haswkykaX+eoaNmObYzCLa7zdI1ZA2vb6JlLx483AJQIO5xuMVDu9D/VfMjA+L300NwrOxfnMEjwSnlPI=
